@@ -1,0 +1,156 @@
+/* nunito-200 - latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-300 - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-regular - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-500 - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-700 - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-600 - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* nunito-800 - latin */
+  @font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('./fonts/nunito-v25-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/nunito-v25-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  body{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  // =======================================================================================
+
+  .app.dark {
+    background-color: #111;
+    color: rgb(156, 156, 156);
+  
+    .chart__grid {
+      stroke: rgba(228, 228, 228, 0.219);
+    }
+  
+    .table {
+      background-color: #111;
+  
+      .tableCell {
+        color: gray;
+      }
+    }
+  
+    .navbar {
+      color: #999;
+      border-color: #333;
+  
+      &__search {
+        border-color: gray;
+      }
+    }
+  
+    .sidebar {
+      background-color: #111;
+      border-color: #333;
+  
+      &__logo {
+        color: #999;
+      }
+  
+      hr {
+        border-color: #333;
+      }
+  
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+          }
+  
+        }
+      }
+      &__icon {
+        color: #999;
+      }
+    }
+  
+    .datatable {
+      .datagrid {
+        color: gray;
+        border: none;
+  
+      }
+      &__view-btn,
+      &__delete-btn,
+      &__tatus {
+        color: gray;
+        border: none;
+      }
+    }
+  
+    input{
+        background-color: transparent;
+    }
+  }
+  
